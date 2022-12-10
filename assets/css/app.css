@@ -1,0 +1,41 @@
+/* Fonts */
+@import url(../fonts/lato/lato.css);
+@import url(../fonts/heebo/heebo.css);
+
+/* Variables */
+:root {
+  --ff-heading: "Lato", sans-serif;
+  --ff-body: "Heebo", sans-serif;
+  --color-body: #758994;
+  --color-brand: #0b2b43;
+  --color-accent: #7fc6a4;
+  --transition: 0.4s all ease;
+}
+
+/* Reset */
+body {
+  font-family: var(--ff-body);
+  background-color: var(--color-body);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-heading);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+}
